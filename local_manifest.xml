@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <manifest>
+<manifest>
 
-  <remote  name="gh" fetch="git://github.com/" />
+  <!-- remove CM repos -->
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="platform/prebuilts/misc" />
+
+  <!-- CM hack -->
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="jellybean" />
+
+  <!-- Mustaavalkosta -->
+  <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="jb-mv" />
+  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
 
   <!-- Awidawad -->
-  <project path="kernel/amazon/otter-common" name="awid777/kernel_omap_otter-common" remote="gh" revision="cm-10.1" />
-  <project path="device/amazon/omap4-common" name="awid777/android_device_amazon_omap4-common" remote="gh" revision="cm-10.1" />
-  <project path="device/amazon/otter-common" name="awid777/android_device_amazon_otter-common" remote="gh" revision="cm-10.1" />
-  <project path="device/amazon/otter" name="awid777/android_device_amazon_otter" remote="gh" revision="cm-10.1" />
-  <project path="device/amazon/tate" name="awid777/android_device_amazon_tate" remote="gh" revision="cm-10.1" />
+  <project path="local_manifest" name="awid777/android-local_manifest" revision="Primo" />
+  <project path="device/htc/primoc" name="awid777/android_device_htc_primoc" remote="github" revision="cm-10.1" />
+  <project path="kernel/htc/primoc" name="awid777/android_kernel_htc_primoc" remote="github" revision="jellybean" />
+  <project path="vendor/htc/primoc" name="awid777/android_vendor_htc_primoc" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/media" name="awid777/android_hardware_qcom_media" revision="cm-10.1" />
+  <project path="device/htc/msm7x30-common" name="awid777/android_device_htc_msm7x30-common" revision="cm-10.1" />
   
-  <!-- Amazon Kindle Projects -->
-  <project path="kernel/amazon/bowser-common" name="KFire-Android/kernel_omap_bowser-common" remote="gh" revision="cm-10.1" />
-  <project path="device/amazon/bowser-common" name="KFire-Android/android_device_amazon_bowser-common" remote="gh" revision="cm-10.1" />
-  <project path="device/amazon/otter2" name="KFire-Android/android_device_amazon_otter2" remote="gh" revision="cm-10.1" />
-  <project path="device/amazon/jem" name="KFire-Android/android_device_amazon_jem" remote="gh" revision="cm-10.1" />
-  <project path="vendor/amazon" name="KFire-Android/proprietary_vendor_amazon" remote="gh" revision="cm-10.1" />  
+  <!-- Rukin5197 -->
+  <project path="device/htc/primou" name="rukin5197/android_device_htc_primou" revision="cm-10.1" />
+  <project path="frameworks/native" name="rukin5197/android_frameworks_native" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="rukin5197/android_hardware_qcom_display" revision="cm-10.1" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.4.3" name="rukin5197/arm-eabi-4.4.3" remote="github" revision="jellybean" />  
+  <project path="vendor/htc/primou" name="rukin5197/android_vendor_htc_primou" revision="cm-10.1" />
   
-  </manifest>
+  <!-- Maxwen -->
+  <project path="kernel/htc/msm7x30" name="maxwen/primou-kernel-HELLBOY" revision="master" />
+   
+</manifest>
