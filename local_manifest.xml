@@ -37,8 +37,8 @@
   <project path="kernel/htc/msm7x30" name="maxwen/primou-kernel-HELLBOY" revision="master" />
   
   <!-- Add in HALO Support -->
-  <project path="frameworks/base" name="awid777/android_frameworks_base" remote="gh" revision="cr-main" />
-  <project path="packages/apps/Settings" name="awid777/android_packages_apps_Settings" remote="gh" revision="cr-main" />
+  <project path="frameworks/base" name="awid777/android_frameworks_base" remote="github" revision="cr-main" />
+  <project path="packages/apps/Settings" name="awid777/android_packages_apps_Settings" remote="github" revision="cr-main" />
   
   <!-- Linaro -->
   <project path="prebuilts/gcc/linux-x86/arm/linaro-4.8" name="BeerGang/linaro-4.8" revision="master" />
