@@ -17,7 +17,7 @@
   <project path="device/amazon/otter2" name="KFire-Android/android_device_amazon_otter2" remote="gh" revision="cm-10.1" />
   <project path="vendor/amazon" name="KFire-Android/proprietary_vendor_amazon" remote="gh" revision="cm-10.1" />  
   
-  <!-- Add in HALO Support EXTREME BETA -->
+  <!-- Add in HALO Support -->
   <project path="frameworks/base" name="awid777/android_frameworks_base" remote="gh" revision="cr-main" />
   <project path="packages/apps/Settings" name="awid777/android_packages_apps_Settings" remote="gh" revision="cr-main" /> 
   
