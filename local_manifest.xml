@@ -4,9 +4,6 @@
   <!-- DERRRRRRP -->
   <remote  name="cfx"
            fetch="https://bitbucket.org/codefirex/" />
-  <default revision="jb-mr1.1-release"
-           remote="aosp"
-           sync-j="8" />
 
   <!-- remove CM repos -->
   <remove-project name="CyanogenMod/android_frameworks_native" />
