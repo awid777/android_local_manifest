@@ -17,7 +17,7 @@
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
 
   <!-- Awidawad -->
-  <project path="local_manifest" name="awid777/android-local_manifest" revision="Primo" />
+  <project path="local_manifest" name="awid777/android_local_manifest" revision="Primo" />
   <project path="device/htc/primoc" name="awid777/android_device_htc_primoc" remote="github" revision="cm-10.1" />
   <project path="kernel/htc/primoc" name="awid777/android_kernel_htc_primoc" remote="github" revision="jellybean" />
   <project path="vendor/htc/primoc" name="awid777/android_vendor_htc_primoc" remote="github" revision="cm-10.1" />
