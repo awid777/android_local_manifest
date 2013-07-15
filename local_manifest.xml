@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <manifest>
 
+  <!-- Add in remotes -->
   <remote  name="gh" fetch="git://github.com/" />
-
+  
+  <!-- We don't need these... -->
   <remove-project name="CyanogenMod/android_frameworks_native" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 
   <project path="frameworks/native" name="KFire-Android/android_frameworks_native" remote="github" revision="cm-10.1" />
 
