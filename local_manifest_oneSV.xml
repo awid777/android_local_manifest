@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+
+  <remote  name="gh" fetch="git://github.com/" />
+
+  <!-- Device Stuff -->
+  <project path="kernel/htc/k2" name="SickleKernels/android_kernel_htc_k2" remote="gh" revision="htc_3.4" />
+  <project path="device/htc/k2_cl" name="SimonSickle/android_device_htc_k2_cl" remote="gh" revision="cm-10.1" />
+  <project path="vendor/htc" name="SimonSickle/android_vendor_htc_k2_cl" remote="gh" revision="cm-10.1" />
+  <project path="device/htc/msm8960-common" name="awid777/android_device_htc_msm8960-common" remote="gh" revision="cm-10.1" />
+  
+  </manifest>
