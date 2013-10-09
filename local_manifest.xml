@@ -5,7 +5,9 @@
 
   <!-- Device Stuff -->
   <project path="kernel/htc/k2" name="SickleKernels/android_kernel_htc_k2" remote="gh" revision="htc_3.4" />
-  <project path="device/htc/k2_cl" name="SimonSickle/android_device_htc_k2_cl" remote="gh" revision="cm-10.1" />
-  <project path="vendor/htc" name="SimonSickle/android_vendor_htc_k2_cl" remote="gh" revision="cm-10.1" />
+  <project path="device/htc/k2_cl" name="RhythmicRom/android_device_htc_k2_cl-BETA" remote="gh" revision="jellybean" />
+  <project path="vendor/htc" name="vl197602/vendor_onesv" remote="gh" revision="master" />
+  <project path="device/htc/msm8960-common" name="jmztaylor/android_device_htc_msm8960-common" remote="gh" revision="jellybean" />
+  
   
   </manifest>
