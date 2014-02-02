@@ -5,6 +5,6 @@
   <remote  name="bitbucket" fetch="https://bitbucket.org/" />
 
   <!-- Device Stuff -->
-  <project path="vendor/lge" name="android_vendor_lge" remote="gh" revision="kitkat" />
+  <project path="vendor/lge" name="BeerGang/android_vendor_lge" remote="gh" revision="kitkat" />
    
   </manifest>
