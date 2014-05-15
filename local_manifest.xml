@@ -3,21 +3,9 @@
 
   <remote  name="gh" fetch="git://github.com/" />
 
-  <!-- Fix Error DERP -->
-  <remove-project name="BeerGang/android_frameworks_base" />
-  <project path="frameworks/base" name="awid777/android_frameworks_base" remote="gh" revision="cm-10.1" />
-  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-  <project path="frameworks/opt/telephony" name="awid777/android_frameworks_opt_telephony" />
-
   <!-- Amazon Kindle Projects -->
-  <project path="kernel/amazon/otter-common" name="KFire-Android/kernel_omap_otter-common" remote="gh" revision="cm-10.1" />
-  <project path="kernel/amazon/bowser-common" name="KFire-Android/kernel_omap_bowser-common" remote="gh" revision="cm-10.1" />
-  <project path="device/amazon/omap4-common" name="KFire-Android/android_device_amazon_omap4-common" remote="gh" revision="cm-10.1" />
-  <project path="device/amazon/otter-common" name="KFire-Android/android_device_amazon_otter-common" remote="gh" revision="cm-10.1" />
-  <project path="device/amazon/bowser-common" name="KFire-Android/android_device_amazon_bowser-common" remote="gh" revision="cm-10.1" />
-  <project path="device/amazon/otter" name="KFire-Android/android_device_amazon_otter" remote="gh" revision="cm-10.1" />
-  <project path="device/amazon/otter2" name="KFire-Android/android_device_amazon_otter2" remote="gh" revision="cm-10.1" />
-  <project path="device/amazon/tate" name="KFire-Android/android_device_amazon_tate" remote="gh" revision="cm-10.1" />
-  <project path="device/amazon/jem" name="KFire-Android/android_device_amazon_jem" remote="gh" revision="cm-10.1" />
-  <project path="vendor/amazon" name="KFire-Android/proprietary_vendor_amazon" remote="gh" revision="cm-10.1" />
+  <project path="device/htc/t6-common" name="awid777/android_device_htc_t6-common" remote="gh" revision="cm-11.0" />
+  <project path="device/htc/t6spr" name="awid777/android_device_htc_t6spr" remote="gh" revision="cm-11.0" />
+  <project path="vendor/htc/t6spr" name="Flyhalf205/proprietary_vendor_htc" remote="gh" revision="cm-11.0" />
+  <project path="kernel/htc/msm8960" name="Flyhalf205/android_kernel_htc_msm8960" remote="gh" revision="cm-11.0" />
   </manifest>
