@@ -9,5 +9,5 @@
   <project path="device/htc/t6-common" name="awid777/android_device_htc_t6-common" remote="gh" revision="cm-11.0" />
   <project path="device/htc/t6spr" name="awid777/android_device_htc_t6spr" remote="gh" revision="cm-11.0" />
   <project path="vendor/htc/t6spr" name="Flyhalf205/proprietary_vendor_htc" remote="gh" revision="cm-11.0" />
-  <project path="kernel/htc/msm8960" name="Flyhalf205/android_kernel_htc_msm8960" remote="gh" revision="cm-11.0" />
+  <project path="kernel/htc/msm896" name="Flyhalf205/android_kernel_htc_msm8960" remote="gh" revision="cm-11.0" />
   </manifest>
