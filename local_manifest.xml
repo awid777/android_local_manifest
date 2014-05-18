@@ -2,8 +2,7 @@
   <manifest>
 
   <remote  name="gh" fetch="git://github.com/" />
-  
-  <remove-project name="kernel/htc/msm8960" />
+
 
   <!-- HTC One Max Projects -->
   <project path="device/htc/t6-common" name="Flyhalf205/android_device_htc_t6-common" remote="gh" revision="cm-11.0-audio" />
