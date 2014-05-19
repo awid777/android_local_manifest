@@ -2,10 +2,7 @@
   <manifest>
 
   <remote  name="gh" fetch="git://github.com/" />
-
-  <remove-project name="android_device_htc_msm8960-common" />
-  <remove-project name="android_device_htc_s4-common" />
-
+  
   <!-- HTC One Max Projects -->
   <project path="device/htc/t6-common" name="Flyhalf205/android_device_htc_t6-common" remote="gh" revision="cm-11.0-audio" />
   <project path="device/htc/msm8960-common" name="Cyanogenmod/android_device_htc_msm8960-common" remote="gh" revision="cm-11.0" />
